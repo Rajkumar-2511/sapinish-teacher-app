@@ -1,0 +1,95 @@
+body{
+    font-family: "Roboto", sans-serif;
+	background-color:whitesmoke;
+}
+.container{
+    width:500px;
+    margin: auto;
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+  
+  h1:before, 
+  h1:after {
+    flex-grow: 1;
+    height: 1px;
+    content: '\a0';
+    background-color: #ddd;
+    position: relative;
+    top: 0.5em;
+  }
+  
+  h1:before {
+    margin-right:10px;
+  }
+  
+  h1:after {
+    margin-left:10px;
+    }
+
+.back{
+    margin-left: 200px;
+    color:gray;
+    font-weight: 400;
+}
+
+i{
+    color: tomato;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+h2{
+    color: coral;
+    font-weight: 300;
+}
+
+h3{
+    color:tomato;
+    text-decoration: line-through;
+    text-decoration-style:solid red ;
+}
+
+label{
+    font-weight: 400;
+}
+
+.indvidual-card{
+    width: 300px;
+    height: 300px;
+    border: 1px solid coral;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 12px darkgrey;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    position: relative;
+}
+
+.card-top{
+    margin-left: 75px;
+}
+
+.add-icon{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.page-links{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
